@@ -1,6 +1,7 @@
 package com.traid.bountifulharvest;
 
 import com.mojang.logging.LogUtils;
+import com.traid.bountifulharvest.block.blocks.BlockRegistry;
 import com.traid.bountifulharvest.item.items.ItemRegistry;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +26,7 @@ public class BountifulHarvest
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemRegistry.register(modEventBus);
+        BlockRegistry.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,8 +1,12 @@
 {
+  "itemGroup.harvesttab": "Bountiful Harvest",
+
+
   "item.bountifulharvest.saltfood": "Salt",
   "item.bountifulharvest.doughfood": "Dough",
   "item.bountifulharvest.skillet": "Skillet",
 
+  "block.bountifulharvest.salt_block": "Block of Salt",
+  "block.bountifulharvest.salt_ore": "Salt Ore"
 
-  "itemGroup.harvesttab": "Bountiful Harvest"
 }
