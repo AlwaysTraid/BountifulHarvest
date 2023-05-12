@@ -26,11 +26,11 @@ public class BlockRegistry {
 
     public static final RegistryObject<Block> SALT_BLOCK = registerBlock("salt_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3f).requiresCorrectToolForDrops()), BountifulHarvestCreativeTab.BountifulHarvestTab);
+                    .strength(0.5f)), BountifulHarvestCreativeTab.BountifulHarvestTab);
 
     public static final RegistryObject<Block> SALT_ORE = registerBlock("salt_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3f).requiresCorrectToolForDrops(),
+                    .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), BountifulHarvestCreativeTab.BountifulHarvestTab);
 
 

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bountifulharvest:salt_block"
+    }
+  ],
+  "result": {
+    "item": "bountifulharvest:saltfood",
+    "count": 9
+  }
+}
