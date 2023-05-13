@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bountifulharvest:mixing_bowl"
+    },
+    {
+      "item": "bountifulharvest:flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "bountifulharvest:salt"
+    }
+  ],
+  "result": {
+    "item": "bountifulharvest:dough",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "bountifulharvest:mortar"
+    },
+    "X": [
+      {
+        "item": "bountifulharvest:pestle"
+      }
+    ]
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "bountifulharvest:mortar_and_pestle"
+  }
+}

@@ -2,9 +2,16 @@
   "itemGroup.harvesttab": "Bountiful Harvest",
 
 
-  "item.bountifulharvest.saltfood": "Salt",
-  "item.bountifulharvest.doughfood": "Dough",
+  "item.bountifulharvest.salt": "Salt",
+  "item.bountifulharvest.dough": "Dough",
+  "item.bountifulharvest.flour": "Flour",
+
+
   "item.bountifulharvest.skillet": "Skillet",
+  "item.bountifulharvest.mixing_bowl": "Mixing Bowl",
+  "item.bountifulharvest.mortar": "Mortar",
+  "item.bountifulharvest.pestle": "Pestle",
+  "item.bountifulharvest.mortar_and_pestle": "Mortar and Pestle",
 
   "block.bountifulharvest.salt_block": "Block of Salt",
   "block.bountifulharvest.salt_ore": "Salt Ore"

@@ -14,15 +14,29 @@ public final class ItemRegistry {
             DeferredRegister.create(ForgeRegistries.ITEMS, BountifulHarvest.MOD_ID);
 
     //Food
-    public static final RegistryObject<Item> saltFood = ITEMS.register("saltfood",
+    public static final RegistryObject<Item> SALT = ITEMS.register("salt",
             () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));
-    public static final RegistryObject<Item> doughFood = ITEMS.register("doughfood",
-            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));;
+    public static final RegistryObject<Item> DOUGH = ITEMS.register("dough",
+            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));
+
+    public static final RegistryObject<Item> FLOUR = ITEMS.register("flour",
+            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));
 
     // Tools
-    public static final RegistryObject<Item> skillet = ITEMS.register("skillet",
-            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));;
+    public static final RegistryObject<Item> SKILLET = ITEMS.register("skillet",
+            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));
 
+    public static final RegistryObject<Item> MIXING_BOWL = ITEMS.register("mixing_bowl",
+            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));
+
+    public static final RegistryObject<Item> MORTAR_AND_PESTLE = ITEMS.register("mortar_and_pestle",
+            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));
+
+    public static final RegistryObject<Item> MORTAR = ITEMS.register("mortar",
+            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));
+
+    public static final RegistryObject<Item> PESTLE = ITEMS.register("pestle",
+            () -> new Item(new Item.Properties().tab(BountifulHarvestCreativeTab.BountifulHarvestTab)));
 
     public static void register(IEventBus eventBus){
 

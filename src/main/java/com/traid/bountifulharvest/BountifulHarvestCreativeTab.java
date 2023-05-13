@@ -8,7 +8,7 @@ public class BountifulHarvestCreativeTab {
     public static final CreativeModeTab BountifulHarvestTab = new CreativeModeTab("harvesttab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ItemRegistry.saltFood.get());
+            return new ItemStack(ItemRegistry.SALT.get());
         }
     };
 }
