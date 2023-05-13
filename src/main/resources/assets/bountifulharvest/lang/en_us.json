@@ -2,10 +2,12 @@
   "itemGroup.harvesttab": "Bountiful Harvest",
 
 
+  "item.bountifulharvest.blueberry_seeds": "Blueberry Seeds",
+
   "item.bountifulharvest.salt": "Salt",
   "item.bountifulharvest.dough": "Dough",
   "item.bountifulharvest.flour": "Flour",
-
+  "item.bountifulharvest.blueberry": "Blueberry",
 
   "item.bountifulharvest.skillet": "Skillet",
   "item.bountifulharvest.mixing_bowl": "Mixing Bowl",
@@ -14,6 +16,8 @@
   "item.bountifulharvest.mortar_and_pestle": "Mortar and Pestle",
 
   "block.bountifulharvest.salt_block": "Block of Salt",
-  "block.bountifulharvest.salt_ore": "Salt Ore"
+  "block.bountifulharvest.salt_ore": "Salt Ore",
+
+  "block.bountifulharvest.blueberry_crop": "Blueberry Crop"
 
 }
