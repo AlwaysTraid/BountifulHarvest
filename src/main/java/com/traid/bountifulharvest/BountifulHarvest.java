@@ -3,6 +3,8 @@ package com.traid.bountifulharvest;
 import com.mojang.logging.LogUtils;
 import com.traid.bountifulharvest.block.blocks.BlockRegistry;
 import com.traid.bountifulharvest.item.items.ItemRegistry;
+import com.traid.bountifulharvest.world.feature.ModConfiguredFeatures;
+import com.traid.bountifulharvest.world.feature.ModPlacedFeatures;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
@@ -31,6 +33,9 @@ public class BountifulHarvest
         BlockRegistry.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
